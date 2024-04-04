@@ -31,7 +31,7 @@ function allUsersPosts(posts){
             if(filterArg <= 10){
                 for(let i = 0; i < homeFilter.length; i++){
                     const newElement = `
-                        <button class="accHeader d-flex justify-content-between align-items-center"><span class="userName fw-bold">${i}</span><i class="fa-solid fa-plus fa-xl menu-plus"></i></button>
+                        <button class="accHeader d-flex justify-content-between align-items-center"><span class="userName fw-bold">${i + 1}</span><i class="fa-solid fa-plus fa-xl menu-plus"></i></button>
                         <div class="accordionBody py-4">
                                 <div class="user-posts-title">
                                     <p class="text-muted fs-4">Title:</p>
@@ -68,7 +68,7 @@ function allUsersPosts(posts){
         }else{
             for(let i = 0; i < resultPosts.length; i++){
                 const newElement = `
-                    <button class="accHeader d-flex justify-content-between align-items-center"><span class="userName fw-bold">${resultPosts[i].userId}</span><i class="fa-solid fa-plus fa-xl menu-plus"></i></button>
+                    <button class="accHeader d-flex justify-content-between align-items-center"><span class="userName fw-bold">${i + 1}</span><i class="fa-solid fa-plus fa-xl menu-plus"></i></button>
                     <div class="accordionBody py-4">
                             <div class="user-posts-title">
                                 <p class="text-muted fs-4">Title:</p>
