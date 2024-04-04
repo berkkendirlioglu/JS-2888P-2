@@ -1,7 +1,7 @@
-                                              First Preview
+                                                      First Preview
 ![ss-1](https://github.com/berkkendirlioglu/JS-2888P-2/assets/71317893/8d02efcd-241c-422f-ba81-6192a2716e8b)
 
-                                              Second Preview
+                                                      Second Preview
 
 ![ss-2](https://github.com/berkkendirlioglu/JS-2888P-2/assets/71317893/f278021e-5d34-47d0-8f00-b47397dd0d76)
 
